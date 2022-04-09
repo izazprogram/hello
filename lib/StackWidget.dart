@@ -17,10 +17,13 @@ class StackWidget extends StatelessWidget {
             color: color,
           ),
           height: 200,
-          child: CardWidget(),
+          child: Padding(
+            padding: const EdgeInsets.only(top: 10.0),
+            child: CardWidget(),
+          ),
         ),
         Padding(
-          padding: const EdgeInsets.only(top: 120.0),
+          padding: const EdgeInsets.only(top: 130.0),
           child: Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
